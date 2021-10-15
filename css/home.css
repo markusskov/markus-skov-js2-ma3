@@ -1,0 +1,9 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+h1,
+h2,
+form {
+  text-align: center;
+}
