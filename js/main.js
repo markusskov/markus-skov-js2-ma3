@@ -28,7 +28,7 @@ form.onsubmit = async function (event) {
 
       window.location.href = './loggedIn.html';
     } catch (error) {
-      alert('alert-danger', 'Your credentials were incorrect');
+      alert('alert-danger', 'Invalid Credentials');
       console.log(error);
     }
   } else {
